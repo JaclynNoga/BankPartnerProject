@@ -13,8 +13,7 @@ namespace BankPartnerProject
         private DateTime time = new DateTime();
 
         //PROPERTIES
-        public decimal AccountBalance
-        { get; set; }
+        public decimal AccountBalance { get; set; }
         public DateTime Time { get; set; }
 
         //METHODS
