@@ -35,8 +35,8 @@ namespace BankPartnerProject
             }
             else         //user wants to withdraw more than amount in the account
             {
-                Console.WriteLine("You can only withdraw as much as the amount in your account.");
-                return this.AccountBalance;
+                Console.WriteLine("Transaction cancelled. Insufficient funds.");
+                return 0.00M;
             }
         }
 
